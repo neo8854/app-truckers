@@ -1,0 +1,40 @@
+.header {
+  grid-area: h;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 10px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.h1 {
+  float: left;
+  margin-left: 10px;
+}
+.btn {
+  float: right;
+  margin-right: 10px;
+}
+.btnAddAsset {
+  background-color: green;
+  /*Green*/border-radius: 10px;
+  color: white;
+  margin-left: 15px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.inputHeader {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
